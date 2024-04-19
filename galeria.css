@@ -1,0 +1,35 @@
+#titulo{
+    text-align: center;
+    font-size: 40px;
+    background-color: coral;
+    background: linear-gradient(top,blue,rgb(124,210,212)) ;/*Degradado de fondo*/
+    background: -webkit-linear-gradient(top,blue,rgb(124,210,212));/*Compatibilidad con otros navegadores*/
+    background: -ms-linear-gradient(top,blue,rgb(124,210,212));
+    background: -o-linear-gradient(top,blue,rgb(124,210,212));
+    width: 50%;
+    border-radius: 30px;/*redondea las esquinas*/
+    -webkit-border-radius: 30px;/*redondea las esquinas*/
+    -moz-border-radius: 30px;/*redondea las esquinas*/
+    -ms-border-radius: 30px;
+    -o-boder-radius: 30px;
+    margin: 40px auto;
+    padding: 15px;
+    color: white;
+    box-shadow: grey 50px 50px 15px;/*sombrea el blooque*/
+    text-shadow: black 2px 2px 2px;/*sombrea el texto*/
+
+}
+
+.imagen{
+    width: 200px;
+    height: 130px;
+    padding: 4px;/*separa la imagen del marco*/
+    border: 2px solid black;/*crea un marco alrededor de la imagen*/
+    float: left;/*se colocan una imagen al lado de la otra*/
+    margin: 100px 55px;/*el primer valor genera un margen todo alrededor, y el segundo entre imagenes*/
+    border-radius: 10px;/*redondea las esquinas*/
+    -webkit-border-radius: 10px;/*redondea las esquinas*/
+    -moz-border-radius: 10px;/*redondea las esquinas*/
+    -ms-border-radius: 10px;
+    -o-boder-radius: 10px;
+}
